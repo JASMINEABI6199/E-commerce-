@@ -6,7 +6,7 @@ import cors from "cors";
 const app = express();
 const PORT = 5000;
 
-const url = "mongodb+srv://jasmineabi6199:arockiaE91@jasmineabi.favdivu.mongodb.net/?retryWrites=true&w=majority&appName=jasmineabi";
+const url = "mongodb+srv://jasmineabi6199:arockiaE91@jasmineabi.favdivu.mongodb.net";
 
 const client = new MongoClient(url);
 
