@@ -4,7 +4,7 @@ import { ObjectId } from "mongodb";
 import cors from "cors";
 
 const app = express();
-const PORT = 4000;
+const PORT = 5000;
 
 const url = "mongodb+srv://jasmineabi6199:arockiaE91@jasmineabi.favdivu.mongodb.net/?retryWrites=true&w=majority&appName=jasmineabi";
 
